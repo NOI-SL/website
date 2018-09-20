@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es7",
+      "scripthost",
+      "es2015.core",
+      "es2015.promise",
+      "es2015.collection"
+    ]
+  }
+}
