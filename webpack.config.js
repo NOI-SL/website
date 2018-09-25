@@ -52,7 +52,9 @@ module.exports = {
     },
     plugins: [
         new CopyWebpackPlugin([
-            { from: 'src/*.html' , flatten: true}
+            { from: 'src/*.html' , flatten: true},
+            { from: 'src/LICENSE' , flatten: true},
+            { from: 'src/README.md' , flatten: true}
         ]),
         new MinifyPlugin(),
         new OptimizeCssAssetsPlugin()
