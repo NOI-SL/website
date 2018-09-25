@@ -6,8 +6,8 @@ cache:
   - "node_modules"
 branches:
   only:
-  -master
-  -develop
+    - master
+    - develop
 script: npm run build
 deploy:
   - provider: pages
@@ -19,6 +19,7 @@ deploy:
     target-branch: master
     verbose: true
     on:
+      repo: SLIOI/website
       branch: master
   - provider: pages
     skip-cleanup: true
@@ -27,4 +28,5 @@ deploy:
     local-dir: dist
     verbose: true
     on:
+      repo: SLIOI/website
       branch: develop
