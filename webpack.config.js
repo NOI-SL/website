@@ -48,13 +48,15 @@ module.exports = {
             }],
     },
     resolve: {
-        extensions: [ '.tsx', '.ts', '.js' ]
+        extensions: ['.tsx', '.ts', '.js']
     },
     plugins: [
         new CopyWebpackPlugin([
-            { from: 'src/*.html' , flatten: true},
-            { from: 'src/LICENSE' , flatten: true},
-            { from: 'src/README.md' , flatten: true}
+            {from: 'src/index.html', to: 'index.html', toType: 'file'},
+            {from: 'src/index.html', to: '404.html', toType: 'file'},
+            {from: 'src/CNAME', to: 'CNAME', toType: 'file'},
+            {from: 'src/LICENSE', flatten: true},
+            {from: 'src/README.md', flatten: true}
         ]),
         new MinifyPlugin(),
         new OptimizeCssAssetsPlugin()
