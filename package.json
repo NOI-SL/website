@@ -1,6 +1,6 @@
 {
   "name": "slioi-website",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Official Website of Sri Lankan Olympiad in Informatics",
   "main": "dist/bundle.js",
   "scripts": {
