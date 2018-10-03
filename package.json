@@ -1,12 +1,13 @@
 {
   "name": "slioi-website",
-  "version": "0.0.0",
-  "description": "THe Official Website of Sri Lankan Olympiad in Informatics",
+  "version": "0.1.0",
+  "description": "The Official Website of Sri Lankan Olympiad in Informatics",
   "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1",
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "npm run clean; webpack",
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,6 @@
     "slioi",
     "website",
     "source",
-    "weya",
     "material"
   ],
   "author": "SLIOI",
@@ -30,6 +30,7 @@
   "homepage": "https://github.com/SLIOI/website#readme",
   "devDependencies": {
     "@material/button": "^0.39.3",
+    "@material/layout-grid": "^0.39.0",
     "@material/ripple": "^0.39.3",
     "@material/typography": "^0.39.0",
     "@types/material-components-web": "^0.35.0",
