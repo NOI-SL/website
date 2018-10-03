@@ -54,7 +54,8 @@ module.exports = {
         new CopyWebpackPlugin([
             { from: 'src/*.html' , flatten: true},
             { from: 'src/LICENSE' , flatten: true},
-            { from: 'src/README.md' , flatten: true}
+            { from: 'src/README.md' , flatten: true},
+            { from: 'src/register/*.html', to: 'register/', flatten: true}, // registration page
         ]),
         new MinifyPlugin(),
         new OptimizeCssAssetsPlugin()
