@@ -392,6 +392,11 @@ body {
   background-color: #252c33
 }
 
+#c-footer .bar::before:hover > .to-top{
+  border-color: #ddbb0f;
+  color: #ddbb0f
+}
+
 #c-footer .bar .to-top{
   position: relative;
   z-index: 5;

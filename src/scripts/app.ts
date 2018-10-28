@@ -1,5 +1,6 @@
 import * as $ from 'jquery';
 
+
 var navBar = document.getElementById('c-nav-bar');
 
 window.addEventListener('scroll',function(){
