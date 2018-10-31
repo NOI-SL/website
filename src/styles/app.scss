@@ -439,20 +439,9 @@ body {
   position: fixed;
   top: -5px;
   background-color: #465461;
-  min-height: 50px
+  min-height: 50px;
+  box-shadow: 0 4px 8px #181d22;
 }
-
-// #c-nav-bar_.abs{
-//   position: absolute;
-//   top: 40px;
-// }
-
-// #c-nav-bar_.fixed{
-//   position: fixed;
-//   top: -5px;
-//   background-color: #465461;
-//   min-height: 50px
-// }
 
 #c-nav-bar_ .btn-mob-resp{
   position: absolute;
