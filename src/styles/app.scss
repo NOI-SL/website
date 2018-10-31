@@ -605,3 +605,27 @@ body {
     display: block;
   }
 }
+
+// social buttons
+.btn-link-social {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin: 2px;
+	padding: 20px 10px 22px 22px;
+	font-size: 25px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #fff;
+  background: #343e47;
+  border-radius: 360px;
+}
+ .btn-link-social:hover{
+  color: #343e47;
+  background: #ddbb0f;
+}
+.btn-link-1 i {
+	vertical-align: middle;
+	font-size: 20px;
+	line-height: 20px;
+} 

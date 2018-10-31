@@ -55,6 +55,7 @@ module.exports = {
             {from: 'src/index.html', to: 'index.html', toType: 'file'},
             {from: 'src/index.html', to: '404.html', toType: 'file'},
             {from: 'src/register/index.html', to: 'register/index.html', toType: 'file'}, 
+            {from: 'src/contact-us/index.html', to: 'contact-us/index.html', toType: 'file'},
             {from: 'src/CNAME', to: 'CNAME', toType: 'file'},
             {from: 'src/LICENSE', flatten: true},
             {from: 'src/README.md', flatten: true}
