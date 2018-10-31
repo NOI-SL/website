@@ -16,6 +16,7 @@ $mdc-button-shape-radius: (4px);
 @import "~@material/button/mdc-button";
 @import "~@material/card/mdc-card";
 @import "~@material/elevation/mdc-elevation";
+@import "~@material/icon-button/mdc-icon-button";
 
 html,
 body {
@@ -356,6 +357,14 @@ body {
   .mdc-typography--body2 {
     color: #465461;
   }
+  .icon-button{
+    @include mdc-icon-button-size(3rem, 3rem, 0);
+    @include mdc-icon-button-ink-color(#ffffff);
+    font-size: 2rem !important;
+    background: #4267b2;
+    border-width: 0;
+    border-radius: 50%;
+  }
 }
 
 #c-footer {
@@ -450,10 +459,6 @@ body {
   color: #465461;
   background-color: #fbd209;
   cursor: pointer;
-}
-
-.c-nav-bar_.fixed .btn-mob-resp p {
-
 }
 
 .c-nav-bar_ ul {
@@ -580,4 +585,5 @@ body {
   }
 }
 
+//Keep this as the last line in the file
 @import "../fonts/fonts";

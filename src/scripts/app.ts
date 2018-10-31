@@ -24,5 +24,7 @@ $(document).ready(function () {
         }
     });
     let buttonRipple = new MDCRipple(document.querySelector('.mdc-button')!);
+    let iconButtonRipple = new MDCRipple(document.querySelector('.icon-button')!);
+    iconButtonRipple.unbounded = true;
 });
 
