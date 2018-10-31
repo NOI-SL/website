@@ -71,9 +71,10 @@ body {
 
 #c-nav-bar.fixed{
   position: fixed;
-  top: -5px;
+  top: 0;
   background-color: #465461;
-  min-height: 50px
+  min-height: 50px;
+  box-shadow: 0 4px 8px #181d22;
 }
 
 #c-nav-bar .btn-mob-resp{
@@ -100,10 +101,6 @@ body {
   color: #465461;
   background-color: #fbd209;
   cursor: pointer;
-}
-
-#c-nav-bar.fixed .btn-mob-resp p{
-
 }
 
 #c-nav-bar ul{
@@ -341,10 +338,6 @@ body {
   color: #636363
 }
 
-#section-2 .card{
-  // box-shadow: 2px 1px 10px #272f36
-}
-
 #section-3{
   background-color: #e0e0e0
 }
@@ -408,7 +401,12 @@ body {
   color: #252c33;
   font-weight: bold;
   background-color: #465461;
-  padding: 0 6px 0 6px;
+  padding: 2px 6px 0 6px;
+  transition: 0.3s
+}
+
+#c-footer .bar .to-top .top-ico{
+  fill:#252c33;
   transition: 0.3s
 }
 
@@ -416,6 +414,10 @@ body {
   cursor: pointer;
   border-color: #ddbb0f;
   color: #ddbb0f
+}
+
+#c-footer .bar .to-top:hover .top-ico{
+  fill:#ddbb0f
 }
 
 #c-footer .coppyright-text{
@@ -476,10 +478,6 @@ body {
   color: #465461;
   background-color: #fbd209;
   cursor: pointer;
-}
-
-#c-nav-bar_.fixed .btn-mob-resp p{
-
 }
 
 #c-nav-bar_ ul{
