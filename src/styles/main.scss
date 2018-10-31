@@ -90,7 +90,9 @@ body {
   display: block;
   width: 100%;
   padding: 0;
-  overflow: hidden;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
 
   &::before {
     display: block;
