@@ -28,6 +28,10 @@ body {
   color: $mdc-theme-primary;
 }
 
+.img-rep{
+  display:block;max-width:100%;height:auto
+}
+
 .content-div {
   width: 100%;
   height: 100%;
@@ -405,7 +409,12 @@ body {
   color: #252c33;
   font-weight: bold;
   background-color: #465461;
-  padding: 0 6px 0 6px;
+  padding: 1px 6px 0 6px;
+  transition: 0.3s
+}
+
+#c-footer .bar .to-top .to-top-btn-ico{
+  fill: #252c33;
   transition: 0.3s
 }
 
@@ -413,6 +422,10 @@ body {
   cursor: pointer;
   border-color: #ddbb0f;
   color: #ddbb0f
+}
+
+#c-footer .bar .to-top:hover .to-top-btn-ico{
+  fill: #ddbb0f
 }
 
 #c-footer .coppyright-text {
