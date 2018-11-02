@@ -1,6 +1,6 @@
 {
   "name": "slioi-website",
-  "version": "0.3.2",
+  "version": "0.5.0",
   "description": "The Official Website of Sri Lankan Olympiad in Informatics",
   "main": "dist/bundle.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "maintainers": [
     "Adithya Narasinghe",
     "Pasindu Wijesena",
-    "NishanWijethunga",
+    "Nishan Wijethunga",
     "Ravindu Ramesh"
   ],
   "license": "GPL-3.0",
