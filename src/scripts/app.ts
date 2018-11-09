@@ -1,5 +1,4 @@
 import * as $ from 'jquery';
-import {MDCRipple} from '@material/ripple';
 
 $(window).scroll(function () {
     let scrollTop = $(window).scrollTop();
@@ -13,18 +12,3 @@ $(window).scroll(function () {
         }
     }
 });
-
-$(document).ready(function () {
-    $("#nav-mobile-res-btn").click(function () {
-        $('#nav-list').slideToggle(300);
-        if ($("#c-nav-bar").hasClass('mob-res-on')) {
-            $("#c-nav-bar").removeClass('mob-res-on');
-        } else {
-            $("#c-nav-bar").addClass('mob-res-on');
-        }
-    });
-    let buttonRipple = new MDCRipple(document.querySelector('.mdc-button')!);
-    let iconButtonRipple = new MDCRipple(document.querySelector('.icon-button')!);
-    iconButtonRipple.unbounded = true;
-});
-
