@@ -59,7 +59,6 @@ module.exports = {
             {from: 'src/LICENSE', flatten: true},
             {from: 'src/README.md', flatten: true}
         ]),
-        new MinifyPlugin(),
         new OptimizeCssAssetsPlugin()
     ]
 };
